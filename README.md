@@ -52,5 +52,5 @@ docker-compose up
 ```
 5.如果需要安装依赖，请输入命令,安装新的依赖请在后面跟上包名即可
 ```
-docker-compose run web npm install 
+docker-compose run --rm web npm install [package]
 ```
