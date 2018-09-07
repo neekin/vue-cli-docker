@@ -40,7 +40,7 @@ docker-compose build
 ```
 2.等待完成后，即可以使用docker-compose的命令创建项目了
 ```shell
-docker-compose run web vue init webpack .
+docker-compose run --rm web vue init webpack .
 ```
 3.等待项目生成完成后，修改package.json文件,找到 scripts字段下面的dev字段,修改下面这样
 ```
